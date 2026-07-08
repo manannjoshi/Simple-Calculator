@@ -75,11 +75,6 @@ No Python installation is required for the executable.
 3️⃣  Multiplication
 4️⃣  Division
 ```
-
----
-
-## [**📷**](https://emojipedia.org/camera)**Preview**
-
 ---
 
 ## 🔮 Future Improvements
