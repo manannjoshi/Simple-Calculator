@@ -2,30 +2,27 @@ import time
 
 def showmenu():
     print("""
-=============================================
-🧮  PYTHON CALCULATOR v1.0
-         Created by Manan
-=============================================
-
-💡 Fast • Simple • Reliable
+==================================================
+PYTHON CALCULATOR v1.0 - By @manannjoshi on Github
+==================================================
           """)
     print("""
-📋 Choose an operation
+Choose an operation
 
-1️⃣  Addition
-2️⃣  Subtraction
-3️⃣  Multiplication
-4️⃣  Division
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
 """)
 
-    inp = int(input("👉 Enter choice >>> "))
+    inp = int(input("Enter choice >>> "))
     return inp
 
 
 def getNum():
     print()
-    num = int(input("🔢 Enter first number  >>> "))
-    num2 = int(input("🔢 Enter second number >>> "))
+    num = int(input("Enter first number  >>> "))
+    num2 = int(input("Enter second number >>> "))
     return (num, num2)
 
 
@@ -54,25 +51,25 @@ while True:
         ans = showmenu()
 
         if ans == 1:
-            print("➕ Addition Selected")
+            print("Addition Selected")
             nums = getNum()
             x, y = nums
 
             print()
-            print("⚡ Calculating...")
+            print("Calculating...")
             time.sleep(0.5)
             print("┌" + "─" * 41 + "┐")
-            print(f"│ ✅ Result : {add(x, y):<28}│")
+            print(f"│ Result : {add(x, y):<31}│")
             print("└" + "─" * 41 + "┘")
             print("-" * 45)
             print()
-            again = input("🔄 Perform another calculation? [Y/N] >>> ")
+            again = input("Perform another calculation? [Y/N] >>> ")
             if again.lower() != "y":
                 print()
                 print("=" * 45)
-                print("👋 Thank you for using")
-                print("🧮 Python Calculator")
-                print("💙 Created by Manan")
+                print("Thank you for using")
+                print("Python Calculator")
+                print("Created by Manan")
                 print("=" * 45)
                 input("Press ENTER to exit...")
                 break
@@ -80,25 +77,25 @@ while True:
             print()
 
         elif ans == 2:
-            print("➖ Subtraction Selected")
+            print("Subtraction Selected")
             nums = getNum()
             x, y = nums
 
             print()
-            print("⚡ Calculating...")
+            print("Calculating...")
             time.sleep(0.5)
             print("┌" + "─" * 41 + "┐")
-            print(f"│ ✅ Result : {sub(x, y):<28}│")
+            print(f"│ Result : {sub(x, y):<31}│")
             print("└" + "─" * 41 + "┘")
             print("-" * 45)
             print()
-            again = input("🔄 Perform another calculation? [Y/N] >>> ")
+            again = input("Perform another calculation? [Y/N] >>> ")
             if again.lower() != "y":
                 print()
                 print("=" * 45)
-                print("👋 Thank you for using")
-                print("🧮 Python Calculator")
-                print("💙 Created by Manan")
+                print("Thank you for using")
+                print("Python Calculator")
+                print("Created by Manan")
                 print("=" * 45)
                 input("Press ENTER to exit...")
                 break
@@ -106,24 +103,24 @@ while True:
             print()
 
         elif ans == 3:
-            print("✖️ Multiplication Selected")
+            print("Multiplication Selected")
             nums = getNum()
             x, y = nums
-            print("⚡ Calculating...")
+            print("Calculating...")
             time.sleep(0.5)
             print()
             print("┌" + "─" * 41 + "┐")
-            print(f"│ ✅ Result : {mul(x, y):<28}│")
+            print(f"│ Result : {mul(x, y):<31}│")
             print("└" + "─" * 41 + "┘")
             print("-" * 45)
             print()
-            again = input("🔄 Perform another calculation? [Y/N] >>> ")
+            again = input("Perform another calculation? [Y/N] >>> ")
             if again.lower() != "y":
                 print()
                 print("=" * 45)
-                print("👋 Thank you for using")
-                print("🧮 Python Calculator")
-                print("💙 Created by Manan")
+                print("Thank you for using")
+                print("Python Calculator")
+                print("Created by Manan")
                 print("=" * 45)
                 input("Press ENTER to exit...")
                 break
@@ -131,51 +128,51 @@ while True:
             print()
 
         elif ans == 4:
-            print("➗ Division Selected")
+            print("Division Selected")
             nums = getNum()
             x, y = nums
             print()
             if y == 0:
-                print("❌ Division by zero is not allowed.")
+                print("Division by zero is not allowed.")
                 print("-" * 45)
                 print()
-                again = input("🔄 Perform another calculation? [Y/N] >>> ")
+                again = input("Perform another calculation? [Y/N] >>> ")
                 if again.lower() != "y":
                     print()
                     print("=" * 45)
-                    print("👋 Thank you for using")
-                    print("🧮 Python Calculator")
-                    print("💙 Created by Manan")
+                    print("Thank you for using")
+                    print("Python Calculator")
+                    print("Created by Manan")
                     print("=" * 45)
                     input("Press ENTER to exit...")
                     break
                 print()
             else:
-                print("⚡ Calculating...")
+                print("Calculating...")
                 time.sleep(0.5)
                 print("┌" + "─" * 41 + "┐")
-                print(f"│ ✅ Result : {div(x, y):<28}│")
+                print(f"│ Result : {div(x, y):<31}│")
                 print("└" + "─" * 41 + "┘")
                 print("-" * 45)
                 print()
                 print()
-                again = input("🔄 Perform another calculation? [Y/N] >>> ")
+                again = input("Perform another calculation? [Y/N] >>> ")
                 if again.lower() != "y":
                     print()
                     print("=" * 45)
-                    print("👋 Thank you for using")
-                    print("🧮 Python Calculator")
-                    print("💙 Created by Manan")
+                    print("Thank you for using")
+                    print("Python Calculator")
+                    print("Created by Manan")
                     print("=" * 45)
                     input("Press ENTER to exit...")
                     break
                 else:
-                    print("⚠️ Invalid choice!")
+                    print("Invalid choice!")
                     print()
                     print("=" * 45)
-                    print("👋 Thank you for using")
-                    print("🧮 Python Calculator")
-                    print("💙 Created by Manan")
+                    print("Thank you for using")
+                    print("Python Calculator")
+                    print("Created by Manan")
                     print("=" * 45)
                     input("Press ENTER to exit...")
                     break
@@ -185,12 +182,12 @@ while True:
 
         else:
             print()
-            print("⚠️ Invalid choice!")
-            print("👉 Please select an option between 1 and 4.")
+            print("Invalid choice!")
+            print("Please select an option between 1 and 4.")
             print()
 
     except ValueError:
         print()
-        print("❌ Invalid input!")
+        print("Invalid input!")
         print("Please enter numbers only.")
         print()

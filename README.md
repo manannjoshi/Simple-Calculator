@@ -1,4 +1,4 @@
-# 🧮 Python Calculator
+# Python Calculator
 
 A simple and user-friendly terminal calculator built with Python.
 
@@ -6,39 +6,27 @@ This project was created as part of my Python learning journey and focuses on wr
 
 ---
 
-## ✨ Features
+## Features
 
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division
-* 🛡️ Division by zero protection
-* ❌ Invalid input handling
-* 🔄 Perform multiple calculations without restarting
-* 🎨 Clean terminal interface with emojis and formatted output
+* Addition
+* Subtraction
+* Multiplication
+* Division
+* Division by zero protection
+* Invalid input handling
+* Perform multiple calculations without restarting
+* Clean terminal interface with emojis and formatted output
 
 ---
 
-## 🛠️ Technologies Used
+## Modules Used
 
 * Python 3
 * Built-in `time` module
 
 ---
 
-## 🚀 How to Run
-
-### Run with Python
-
-```bash
-python calculator.py
-```
-
-or
-
-```bash
-py calculator.py
-```
+## How to Run
 
 ### Run the Executable
 
@@ -52,7 +40,7 @@ No Python installation is required for the executable.
 
 ---
 
-## 📸 Preview
+## Preview
 
 <img width="1101" height="556" alt="Screenshot 2026-07-08 201152" src="https://github.com/user-attachments/assets/cd919aab-4b4e-4b69-9122-f23135a9dc9d" />
 
@@ -62,10 +50,8 @@ No Python installation is required for the executable.
 ---
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Manan**
 
 This calculator is part of my growing Python projects portfolio as I continue learning programming.
-
-⭐ If you found this project interesting, feel free to check out my other repositories!
